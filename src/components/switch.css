@@ -1,0 +1,112 @@
+.ds-switch-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-family-ubuntu, 'Ubuntu'), sans-serif;
+  color: #444b55;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Base UI passes disabled state differently depending on the component wrapper, but since the label wraps it, we can disable cursor when internal is disabled or just let the disabled pointer-events handle it */
+
+/* SIZES */
+.ds-switch-container--lg {
+  font-size: 16px;
+  line-height: 24px;
+}
+.ds-switch-container--lg .ds-switch {
+  width: 38px;
+  height: 24px;
+}
+.ds-switch-container--lg .ds-switch-thumb {
+  width: 20px;
+  height: 20px;
+}
+
+.ds-switch-container--md {
+  font-size: 14px;
+  line-height: 21px;
+}
+.ds-switch-container--md .ds-switch {
+  width: 34px;
+  height: 20px;
+}
+.ds-switch-container--md .ds-switch-thumb {
+  width: 16px;
+  height: 16px;
+}
+
+.ds-switch-container--sm {
+  font-size: 12px;
+  line-height: 18px;
+}
+.ds-switch-container--sm .ds-switch {
+  width: 30px;
+  height: 16px;
+}
+.ds-switch-container--sm .ds-switch-thumb {
+  width: 12px;
+  height: 12px;
+}
+
+/* Switch Track */
+.ds-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background-color: #E7E8E9;
+  border: none;
+  padding: 0;
+  cursor: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.ds-switch[data-checked] {
+  background-color: #009EA9;
+}
+
+.ds-switch[data-disabled] {
+  cursor: not-allowed;
+  opacity: 1; /* Retain opacity, changing background color explicitly below */
+}
+
+/* Active and disabled state */
+.ds-switch[data-checked][data-disabled] {
+  background-color: #99D3DE;
+}
+
+/* Inactive and disabled state (same as regular inactive, though we could apply opacity here if design asked for it) */
+.ds-switch[data-unchecked][data-disabled] {
+  background-color: #E7E8E9;
+}
+
+.ds-switch:focus-visible {
+  outline: 2px solid #009EA9;
+  outline-offset: 2px;
+}
+
+/* Switch Thumb */
+.ds-switch-thumb {
+  display: block;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-left: 2px;
+  /* By default it stays at left (translate 0) */
+  transform: translateX(0);
+}
+
+.ds-switch[data-checked] .ds-switch-thumb {
+  /* Common translate value for all sizes (lg: 38 - 20 - 4 = 14, md: 34 - 16 - 4 = 14, sm: 30 - 12 - 4 = 14) */
+  transform: translateX(14px);
+}
+
+.ds-switch-label {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
