@@ -1,0 +1,313 @@
+/* Text Styles */
+.heading-heading-1 {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-34, 34px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-48, 48px);
+}
+
+.heading-heading-2 {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-28, 28px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-42, 42px);
+}
+
+.heading-heading-3 {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-24, 24px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-36, 36px);
+}
+
+.heading-heading-4 {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-22, 22px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-32, 32px);
+}
+
+.heading-heading-5 {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-20, 20px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-28, 28px);
+}
+
+.heading-heading-6 {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-18, 18px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-26, 26px);
+  text-transform: capitalize;
+}
+
+.body-small-regular {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+}
+
+.body-small-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+}
+
+.body-small-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+}
+
+.body-small-italic {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-italic, 400);
+  font-style: italic;
+  line-height: var(--line-height-21, 21px);
+}
+
+.body-small-underline {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+  text-decoration: underline;
+}
+
+.body-small-underline-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+  text-decoration: underline;
+}
+
+.body-small-underline-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+  text-decoration: underline;
+}
+
+.body-large-regular {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+}
+
+.body-large-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+}
+
+.body-large-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+}
+
+.body-large-italic {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-italic, 400);
+  font-style: italic;
+  line-height: var(--line-height-24, 24px);
+}
+
+.body-large-underline {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+  text-decoration: underline;
+}
+
+.body-large-underline-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+  text-decoration: underline;
+}
+
+.body-large-underline-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+  text-decoration: underline;
+}
+
+.caption-large-regular {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+}
+
+.caption-large-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+}
+
+.caption-large-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+}
+
+.caption-large-italic {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-italic, 400);
+  font-style: italic;
+  line-height: var(--line-height-18, 18px);
+}
+
+.caption-large-underline {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+  text-decoration: underline;
+}
+
+.caption-large-underline-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+  text-decoration: underline;
+}
+
+.caption-large-underline-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+  text-decoration: underline;
+}
+
+.caption-small-regular {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-15, 15px);
+}
+
+.caption-small-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-15, 15px);
+}
+
+.caption-small-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-15, 15px);
+}
+
+.caption-small-italic {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-italic, 400);
+  font-style: italic;
+  line-height: var(--line-height-15, 15px);
+}
+
+.caption-small-underline {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-regular, 400);
+  font-style: normal;
+  line-height: var(--line-height-15, 15px);
+  text-decoration: underline;
+}
+
+.caption-small-underline-semibold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-15, 15px);
+  text-decoration: underline;
+}
+
+.caption-small-underline-bold {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-10, 10px);
+  font-weight: var(--font-weight-bold, 700);
+  font-style: normal;
+  line-height: var(--line-height-15, 15px);
+  text-decoration: underline;
+}
+
+.button-medium {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-14, 14px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-21, 21px);
+  text-transform: capitalize;
+}
+
+.button-small {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-12, 12px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-18, 18px);
+  text-transform: capitalize;
+}
+
+.button-large {
+  font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
+  font-size: var(--font-size-16, 16px);
+  font-weight: var(--font-weight-medium, 500);
+  font-style: normal;
+  line-height: var(--line-height-24, 24px);
+  text-transform: capitalize;
+}
+

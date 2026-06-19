@@ -1,0 +1,243 @@
+/* Base Variables */
+:root {
+  /* Collection: - base color */
+  --tosca-25: #99D3DE;
+  --tosca-50: #80C9D6;
+  --tosca-100: #66BECD;
+  --tosca-200: #4DB3C5;
+  --tosca-300: #33A8BD;
+  --tosca-400: #1A9DB4;
+  --tosca-500: #009EA9;
+  --tosca-600: #007E87;
+  --tosca-700: #005F65;
+  --tosca-800: #003F44;
+  --tosca-900: #002022;
+  --dark-blue-25: #F3F5FC;
+  --dark-blue-50: #DDE1EC;
+  --dark-blue-100: #C7CCDB;
+  --dark-blue-200: #9BA3BA;
+  --dark-blue-300: #707B9A;
+  --dark-blue-400: #445279;
+  --dark-blue-500: #182958;
+  --dark-blue-600: #132146;
+  --dark-blue-700: #0E1935;
+  --dark-blue-800: #0A1023;
+  --dark-blue-900: #050812;
+  --gray-25: #F9FAFA;
+  --gray-50: #E7E8E9;
+  --gray-100: #D5D7D9;
+  --gray-200: #B1B4B8;
+  --gray-300: #8C9197;
+  --gray-400: #686E76;
+  --gray-500: #444B55;
+  --gray-600: #363C44;
+  --gray-700: #292D33;
+  --gray-800: #1B1E22;
+  --gray-900: #0E0F11;
+  --red-25: #FFF9F9;
+  --red-50: #FDE5E4;
+  --red-100: #FCD1CE;
+  --red-200: #F8A9A4;
+  --red-300: #F58179;
+  --red-400: #F1594F;
+  --red-500: #EE3124;
+  --red-600: #C7281D;
+  --red-700: #9F2017;
+  --red-800: #781710;
+  --red-900: #500F0A;
+  --orange-25: #FFFDFC;
+  --orange-50: #FEF2E6;
+  --orange-100: #FDE8D0;
+  --orange-200: #FCD3A3;
+  --orange-300: #FABD77;
+  --orange-400: #F9A84A;
+  --orange-500: #F7931E;
+  --orange-600: #CF7B18;
+  --orange-700: #A76213;
+  --orange-800: #7E4A0D;
+  --orange-900: #563108;
+  --blue-25: #FAFBFF;
+  --blue-50: #E6ECFF;
+  --blue-100: #D2DDFF;
+  --blue-200: #AABFFF;
+  --blue-300: #83A2FF;
+  --blue-400: #5B84FF;
+  --blue-500: #3366FF;
+  --blue-600: #2957E1;
+  --blue-700: #1F48C4;
+  --blue-800: #1439A6;
+  --blue-900: #0A2A89;
+  --green-25: #F2FCF5;
+  --green-50: #DDF2E4;
+  --green-100: #C9E8D3;
+  --green-200: #A0D4B1;
+  --green-300: #77BF90;
+  --green-400: #4EAB6E;
+  --green-500: #25974C;
+  --green-600: #1E793D;
+  --green-700: #165B2E;
+  --green-800: #0F3C1E;
+  --green-900: #071E0F;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  /* Collection: font style */
+  --font-family-ubuntu: 'Ubuntu';
+  --font-size-34: 34px;
+  --font-size-28: 28px;
+  --font-size-24: 24px;
+  --font-size-22: 22px;
+  --font-size-20: 20px;
+  --font-size-18: 18px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-12: 12px;
+  --font-size-10: 10px;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --letter-spacing-0: 0px;
+  --line-height-48: 48px;
+  --line-height-42: 42px;
+  --line-height-36: 36px;
+  --line-height-32: 32px;
+  --line-height-28: 28px;
+  --line-height-26: 26px;
+  --line-height-21: 21px;
+  --line-height-24: 24px;
+  --line-height-18: 18px;
+  --line-height-15: 15px;
+  --paragraph-spacing-0: 0px;
+  --paragraph-spacing-18: 18px;
+  --paragraph-indent-0: 0px;
+  --list-spacing-0: 0px;
+  --font-type-italic: 'italic';
+  --font-color-primary: #444B55;
+  --font-color-secondary: #686E76;
+  --font-color-inactive: #8C9197;
+  --font-color-placeholder: #B1B4B8;
+  --font-color-white: #FFFFFF;
+
+  /* Collection: button */
+  --state-default: #009EA9;
+  --state-hover: #007E87;
+  --state-pressed: #005F65;
+  --state-focused: #FFFFFF;
+  --state-disabled: #FFFFFF;
+  --text-default: #FFFFFF;
+  --text-outline: #009EA9;
+  --text-disabled: #8C9197;
+
+  /* Collection: --- mimin */
+  --mimin-sidebar-navigation-menu: #FFFFFF;
+  --mimin-sidebar-navigation-text: #444B55;
+  --mimin-sidebar-navigation-icon: #686E76;
+
+  /* Collection: anchor text */
+  --anchor-text: #009EA9;
+
+  /* Collection: --- flow figma */
+  --flow-colors-netral: #83A2FF;
+  --flow-colors-positive: #25974C;
+  --flow-colors-negative: #EE3124;
+
+  /* Collection: - pastel color */
+  --soft-pastel-ambrosia-ivory: #FFF5EA;
+  --soft-pastel-placebo-turqoise: #ECFFF3;
+  --soft-pastel-sugar-coated: #FFEDF1;
+  --soft-pastel-polished-pink: #FFF3EF;
+  --soft-pastel-brilliant-white: #EFF3FF;
+  --soft-pastel-carte-blance: #EEEEFF;
+  --soft-pastel-moon-white: #E8F2FF;
+  --soft-pastel-milky-way: #E6F4F7;
+  --hard-pastel-highlighter-pink: #E35C77;
+  --hard-pastel-gorse-orange: #EA9B3F;
+  --hard-pastel-tropical-tone: #55A172;
+  --hard-pastel-new-car: #2952CC;
+  --hard-pastel-mesa-sunrise: #E9835D;
+  --hard-pastel-feather-star: #5298ED;
+  --hard-pastel-cool-violet: #7E7CE6;
+  --hard-pastel-cape-pond: #0092AC;
+
+  /* Collection: background color */
+  --background-color-inactive: #E7E8E9;
+  --background-color-blackout: #8C9197;
+  --background-color-secondary: #F9FAFA;
+  --background-color-primary: #FFFFFF;
+
+  /* Collection: border color */
+  --border-color-light: #F6F9FC;
+  --border-color-dark: #DEE3ED;
+
+  /* Collection: chip */
+  --soft-tosca: #E6F4F7;
+  --soft-green: #DDF2E4;
+  --soft-dark-blue: #DDE1EC;
+  --soft-gray: #E7E8E9;
+  --soft-blue: #E6ECFF;
+  --soft-orange: #FEF2E6;
+  --soft-red: #FDE5E4;
+  --solid-tosca: #009EA9;
+  --solid-green: #25974C;
+  --solid-dark-blue: #182958;
+  --solid-gray: #444B55;
+  --solid-blue: #3366FF;
+  --solid-orange: #F7931E;
+  --solid-red: #EE3124;
+
+}
+
+/* Theme & Mode Mappings */
+[data-mode-button="primary"] {
+  --state-default: #009EA9;
+  --state-hover: #007E87;
+  --state-pressed: #005F65;
+  --state-focused: #FFFFFF;
+  --state-disabled: #FFFFFF;
+  --text-default: #FFFFFF;
+  --text-outline: #009EA9;
+  --text-disabled: #8C9197;
+}
+
+[data-mode-button="tertiery"] {
+  --state-default: #444B55;
+  --state-hover: #363C44;
+  --state-pressed: #292D33;
+  --state-focused: #FFFFFF;
+  --state-disabled: #FFFFFF;
+  --text-default: #FFFFFF;
+  --text-outline: #444B55;
+  --text-disabled: #8C9197;
+}
+
+[data-mode-button="destructive"] {
+  --state-default: #EE3124;
+  --state-hover: #C7281D;
+  --state-pressed: #9F2017;
+  --state-focused: #FFFFFF;
+  --state-disabled: #FFFFFF;
+  --text-default: #FFFFFF;
+  --text-outline: #EE3124;
+  --text-disabled: #8C9197;
+}
+
+[data-mode-mimin="default"] {
+  --mimin-sidebar-navigation-menu: #FFFFFF;
+  --mimin-sidebar-navigation-text: #444B55;
+  --mimin-sidebar-navigation-icon: #686E76;
+}
+
+[data-mode-mimin="active"] {
+  --mimin-sidebar-navigation-menu: #009EA9;
+  --mimin-sidebar-navigation-text: #FFFFFF;
+  --mimin-sidebar-navigation-icon: #FFFFFF;
+}
+
+[data-mode-anchor-text="default"] {
+  --anchor-text: #009EA9;
+}
+
+[data-mode-anchor-text="inactive"] {
+  --anchor-text: #8C9197;
+}
+

@@ -1,0 +1,110 @@
+.ds-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-family: var(--font-family-ubuntu, 'Ubuntu'), sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, outline 0.2s ease, color 0.2s ease;
+  user-select: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* SIZES */
+.ds-button--large {
+  height: 52px;
+  padding: 0 24px;
+  font-size: var(--font-size-16, 16px);
+  line-height: var(--line-height-24, 24px);
+  font-weight: var(--font-weight-medium, 500);
+  gap: 8px;
+  text-transform: capitalize; /* button text styles are title case */
+}
+
+.ds-button--medium {
+  height: 44px;
+  padding: 0 20px;
+  font-size: var(--font-size-14, 14px);
+  line-height: var(--line-height-21, 21px);
+  font-weight: var(--font-weight-medium, 500);
+  gap: 8px;
+  text-transform: capitalize;
+}
+
+.ds-button--small {
+  height: 36px;
+  padding: 0 16px;
+  font-size: var(--font-size-12, 12px);
+  line-height: var(--line-height-18, 18px);
+  font-weight: var(--font-weight-medium, 500);
+  gap: 4px;
+  text-transform: capitalize;
+}
+
+/* VARIANTS: SOLID */
+.ds-button--solid {
+  background-color: var(--state-default);
+  color: var(--text-default);
+  border: none;
+}
+
+.ds-button--solid:hover:not(:disabled),
+.ds-button--solid[data-hover]:not(:disabled) {
+  background-color: var(--state-hover);
+}
+
+.ds-button--solid:active:not(:disabled),
+.ds-button--solid[data-active]:not(:disabled) {
+  background-color: var(--state-pressed);
+}
+
+.ds-button--solid:focus-visible:not(:disabled),
+.ds-button--solid[data-focus]:not(:disabled) {
+  background-color: var(--state-default);
+  outline: 3px solid var(--state-pressed);
+  outline-offset: 0;
+}
+
+.ds-button--solid:disabled,
+.ds-button--solid[data-disabled] {
+  background-color: var(--background-color-inactive, #e7e8e9);
+  color: var(--text-disabled, #8c9197);
+  cursor: not-allowed;
+}
+
+/* VARIANTS: OUTLINE */
+.ds-button--outline {
+  background-color: transparent;
+  border: 1px solid var(--state-default);
+  color: var(--text-outline);
+}
+
+.ds-button--outline:hover:not(:disabled),
+.ds-button--outline[data-hover]:not(:disabled) {
+  border-color: var(--state-hover);
+  color: var(--state-hover); /* Optional color shift matching hover border */
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.ds-button--outline:active:not(:disabled),
+.ds-button--outline[data-active]:not(:disabled) {
+  border-color: var(--state-pressed);
+  color: var(--state-pressed);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.ds-button--outline:focus-visible:not(:disabled),
+.ds-button--outline[data-focus]:not(:disabled) {
+  outline: 3px solid var(--state-default);
+  outline-offset: 0;
+  border-color: var(--state-default);
+}
+
+.ds-button--outline:disabled,
+.ds-button--outline[data-disabled] {
+  background-color: transparent;
+  border-color: var(--text-disabled, #8c9197);
+  color: var(--text-disabled, #8c9197);
+  cursor: not-allowed;
+}
