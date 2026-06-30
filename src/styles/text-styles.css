@@ -1,7 +1,5 @@
 /* Text Styles - Utility Classes */
 
-/* Font Family */
-.font-ubuntu { font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif); }
 
 /* Text Sizes (Size + Leading) */
 .text-6xl { font-size: var(--text-6xl); line-height: var(--leading-6xl); }
