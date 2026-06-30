@@ -14,31 +14,31 @@
 /* SIZES */
 .ds-button--large {
   height: 52px;
-  padding: 0 24px;
+  padding: 0 var(--spacing-24, 24px);
   font-size: var(--text-lg, 16px);
   line-height: var(--leading-lg, 24px);
   font-weight: var(--font-weight-medium, 500);
-  gap: 8px;
+  gap: var(--spacing-8, 8px);
   text-transform: capitalize; /* button text styles are title case */
 }
 
 .ds-button--medium {
   height: 44px;
-  padding: 0 20px;
+  padding: 0 var(--spacing-20, 20px);
   font-size: var(--text-base, 14px);
   line-height: var(--leading-base, 21px);
   font-weight: var(--font-weight-medium, 500);
-  gap: 8px;
+  gap: var(--spacing-8, 8px);
   text-transform: capitalize;
 }
 
 .ds-button--small {
   height: 36px;
-  padding: 0 16px;
+  padding: 0 var(--spacing-16, 16px);
   font-size: var(--text-sm, 12px);
   line-height: var(--leading-sm, 18px);
   font-weight: var(--font-weight-medium, 500);
-  gap: 4px;
+  gap: var(--spacing-4, 4px);
   text-transform: capitalize;
 }
 
