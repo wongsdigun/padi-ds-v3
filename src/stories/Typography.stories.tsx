@@ -39,68 +39,68 @@ export const TextStyles: StoryObj = {
       {
         name: 'Headings',
         styles: [
-          { name: 'Heading 1', class: 'heading-1', sample: 'Heading 1 (text-6xl, leading-6xl)' },
-          { name: 'Heading 2', class: 'heading-2', sample: 'Heading 2 (text-5xl, leading-5xl)' },
-          { name: 'Heading 3', class: 'heading-3', sample: 'Heading 3 (text-4xl, leading-4xl)' },
-          { name: 'Heading 4', class: 'heading-4', sample: 'Heading 4 (text-3xl, leading-3xl)' },
-          { name: 'Heading 5', class: 'heading-5', sample: 'Heading 5 (text-2xl, leading-2xl)' },
-          { name: 'Heading 6', class: 'heading-6', sample: 'Heading 6 (text-xl, leading-xl Title Case)' },
+          { name: 'Heading 1', class: 'font-ubuntu text-6xl font-bold', sample: 'Heading 1 (text-6xl, leading-6xl)' },
+          { name: 'Heading 2', class: 'font-ubuntu text-5xl font-bold', sample: 'Heading 2 (text-5xl, leading-5xl)' },
+          { name: 'Heading 3', class: 'font-ubuntu text-4xl font-bold', sample: 'Heading 3 (text-4xl, leading-4xl)' },
+          { name: 'Heading 4', class: 'font-ubuntu text-3xl font-bold', sample: 'Heading 4 (text-3xl, leading-3xl)' },
+          { name: 'Heading 5', class: 'font-ubuntu text-2xl font-bold', sample: 'Heading 5 (text-2xl, leading-2xl)' },
+          { name: 'Heading 6', class: 'font-ubuntu text-xl font-bold capitalize', sample: 'Heading 6 (text-xl, leading-xl Title Case)' },
         ]
       },
       {
         name: 'Body / Large',
         styles: [
-          { name: 'Body Large Regular', class: 'body-large-regular' },
-          { name: 'Body Large Semibold', class: 'body-large-semibold' },
-          { name: 'Body Large Bold', class: 'body-large-bold' },
-          { name: 'Body Large Italic', class: 'body-large-italic' },
-          { name: 'Body Large Underline', class: 'body-large-underline' },
-          { name: 'Body Large Underline Semibold', class: 'body-large-underline-semibold' },
-          { name: 'Body Large Underline Bold', class: 'body-large-underline-bold' },
+          { name: 'Body Large Regular', class: 'font-ubuntu text-lg font-regular' },
+          { name: 'Body Large Semibold', class: 'font-ubuntu text-lg font-medium' },
+          { name: 'Body Large Bold', class: 'font-ubuntu text-lg font-bold' },
+          { name: 'Body Large Italic', class: 'font-ubuntu text-lg font-regular italic' },
+          { name: 'Body Large Underline', class: 'font-ubuntu text-lg font-regular underline' },
+          { name: 'Body Large Underline Semibold', class: 'font-ubuntu text-lg font-medium underline' },
+          { name: 'Body Large Underline Bold', class: 'font-ubuntu text-lg font-bold underline' },
         ]
       },
       {
         name: 'Body / Small',
         styles: [
-          { name: 'Body Small Regular', class: 'body-small-regular' },
-          { name: 'Body Small Semibold', class: 'body-small-semibold' },
-          { name: 'Body Small Bold', class: 'body-small-bold' },
-          { name: 'Body Small Italic', class: 'body-small-italic' },
-          { name: 'Body Small Underline', class: 'body-small-underline' },
-          { name: 'Body Small Underline Semibold', class: 'body-small-underline-semibold' },
-          { name: 'Body Small Underline Bold', class: 'body-small-underline-bold' },
+          { name: 'Body Small Regular', class: 'font-ubuntu text-base font-regular' },
+          { name: 'Body Small Semibold', class: 'font-ubuntu text-base font-medium' },
+          { name: 'Body Small Bold', class: 'font-ubuntu text-base font-bold' },
+          { name: 'Body Small Italic', class: 'font-ubuntu text-base font-regular italic' },
+          { name: 'Body Small Underline', class: 'font-ubuntu text-base font-regular underline' },
+          { name: 'Body Small Underline Semibold', class: 'font-ubuntu text-base font-medium underline' },
+          { name: 'Body Small Underline Bold', class: 'font-ubuntu text-base font-bold underline' },
         ]
       },
       {
         name: 'Captions / Large',
         styles: [
-          { name: 'Caption Large Regular', class: 'caption-large-regular' },
-          { name: 'Caption Large Semibold', class: 'caption-large-semibold' },
-          { name: 'Caption Large Bold', class: 'caption-large-bold' },
-          { name: 'Caption Large Italic', class: 'caption-large-italic' },
-          { name: 'Caption Large Underline', class: 'caption-large-underline' },
-          { name: 'Caption Large Underline Semibold', class: 'caption-large-underline-semibold' },
-          { name: 'Caption Large Underline Bold', class: 'caption-large-underline-bold' },
+          { name: 'Caption Large Regular', class: 'font-ubuntu text-sm font-regular' },
+          { name: 'Caption Large Semibold', class: 'font-ubuntu text-sm font-medium' },
+          { name: 'Caption Large Bold', class: 'font-ubuntu text-sm font-bold' },
+          { name: 'Caption Large Italic', class: 'font-ubuntu text-sm font-regular italic' },
+          { name: 'Caption Large Underline', class: 'font-ubuntu text-sm font-regular underline' },
+          { name: 'Caption Large Underline Semibold', class: 'font-ubuntu text-sm font-medium underline' },
+          { name: 'Caption Large Underline Bold', class: 'font-ubuntu text-sm font-bold underline' },
         ]
       },
       {
         name: 'Captions / Small',
         styles: [
-          { name: 'Caption Small Regular', class: 'caption-small-regular' },
-          { name: 'Caption Small Semibold', class: 'caption-small-semibold' },
-          { name: 'Caption Small Bold', class: 'caption-small-bold' },
-          { name: 'Caption Small Italic', class: 'caption-small-italic' },
-          { name: 'Caption Small Underline', class: 'caption-small-underline' },
-          { name: 'Caption Small Underline Semibold', class: 'caption-small-underline-semibold' },
-          { name: 'Caption Small Underline Bold', class: 'caption-small-underline-bold' },
+          { name: 'Caption Small Regular', class: 'font-ubuntu text-xs font-regular' },
+          { name: 'Caption Small Semibold', class: 'font-ubuntu text-xs font-medium' },
+          { name: 'Caption Small Bold', class: 'font-ubuntu text-xs font-bold' },
+          { name: 'Caption Small Italic', class: 'font-ubuntu text-xs font-regular italic' },
+          { name: 'Caption Small Underline', class: 'font-ubuntu text-xs font-regular underline' },
+          { name: 'Caption Small Underline Semibold', class: 'font-ubuntu text-xs font-medium underline' },
+          { name: 'Caption Small Underline Bold', class: 'font-ubuntu text-xs font-bold underline' },
         ]
       },
       {
         name: 'Button Typography',
         styles: [
-          { name: 'Button Large', class: 'button-large', sample: 'Button Large Text' },
-          { name: 'Button Medium', class: 'button-medium', sample: 'Button Medium Text' },
-          { name: 'Button Small', class: 'button-small', sample: 'Button Small Text' },
+          { name: 'Button Large', class: 'font-ubuntu text-lg font-medium capitalize', sample: 'Button Large Text' },
+          { name: 'Button Medium', class: 'font-ubuntu text-base font-medium capitalize', sample: 'Button Medium Text' },
+          { name: 'Button Small', class: 'font-ubuntu text-sm font-medium capitalize', sample: 'Button Small Text' },
         ]
       }
     ];
