@@ -8,6 +8,7 @@ export interface ButtonProps extends React.ComponentPropsWithoutRef<typeof BaseB
   variant?: 'solid' | 'outline';
   size?: 'small' | 'medium' | 'large';
   mode?: 'primary' | 'tertiery' | 'destructive';
+  testId?: string;
 }
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(function Button(
@@ -17,6 +18,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(function 
     mode = 'primary',
     className = '',
     children,
+    testId,
     ...props
   },
   ref
@@ -28,6 +30,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(function 
       ref={ref}
       className={buttonClass}
       data-mode-button={mode}
+      data-testid={testId}
       {...props}
     >
       {children}
