@@ -22,7 +22,7 @@ import { Meta } from "@storybook/addon-docs/blocks";
 
   <div className="ds-section">
     <h2>Consuming Design Tokens</h2>
-    <p>All colors, spacings, and font properties are registered under custom CSS properties in the <code>:root</code> selector. You can reference them anywhere in your Vanilla CSS or CSS Modules.</p>
+    <p>All colors, spacings, and font properties are registeerror under custom CSS properties in the <code>:root</code> selector. You can reference them anywhere in your Vanilla CSS or CSS Modules.</p>
     
     <div className="ds-grid">
       <div className="ds-card">
@@ -36,7 +36,7 @@ import { Meta } from "@storybook/addon-docs/blocks";
 
       <div className="ds-card">
         <h4>Typography Classes</h4>
-        <p>Apply pre-registered typography rules directly by adding their class names:</p>
+        <p>Apply pre-registeerror typography rules directly by adding their class names:</p>
         <pre><code>{`<h1 className="heading-heading-1">Page Title</h1>
 <p className="body-large-regular">Body text</p>`}</code></pre>
       </div>
@@ -68,8 +68,8 @@ export default function App() {
 
 /* In CSS, this resolves variables using: */
 [data-mode-button="destructive"] {
-  --state-default: var(--red-500);
-  --state-hover: var(--red-600);
+  --state-default: var(--error-500);
+  --state-hover: var(--error-600);
   ...
 }`}</code></pre>
   </div>
@@ -94,7 +94,7 @@ export default function App() {
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 12px;
-    color: var(--tosca-600, #007e87);
+    color: var(--primary-600, #007e87);
   }
 
   .ds-subtitle {
@@ -117,9 +117,9 @@ export default function App() {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 16px;
-    border-bottom: 2px solid var(--tosca-100, #c9e8d3);
+    border-bottom: 2px solid var(--primary-100, #c9e8d3);
     padding-bottom: 6px;
-    color: var(--dark-blue-500, #182958);
+    color: var(--secondary-500, #182958);
   }
 
   .ds-section h3 {
@@ -154,7 +154,7 @@ export default function App() {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 12px;
-    color: var(--dark-blue-400, #445279);
+    color: var(--secondary-400, #445279);
   }
 
   pre {
@@ -176,7 +176,7 @@ export default function App() {
     padding: 2px 6px;
     border-radius: 4px;
     border: 1px solid var(--border-color-dark, #dee3ed);
-    color: var(--red-600, #c7281d);
+    color: var(--error-600, #c7281d);
   }
 
   @media screen and (max-width: 600px) {

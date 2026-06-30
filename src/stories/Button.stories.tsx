@@ -55,7 +55,7 @@ export const CssCheck: Story = {
     const button = canvas.getByRole('button', { name: /css check button/i });
     // Check computed height is 44px
     await expect(getComputedStyle(button).height).toBe('44px');
-    // Check background color resolves to the tosca-500 (#009EA9 -> rgb(0, 158, 169))
+    // Check background color resolves to the primary-500 (#009EA9 -> rgb(0, 158, 169))
     await expect(getComputedStyle(button).backgroundColor).toBe('rgb(0, 158, 169)');
   },
 };

@@ -36,13 +36,13 @@ const ColorGroup = ({ title, colors }: ColorGroupProps) => {
 export const Colors: StoryObj = {
   render: () => {
     const colors = {
-      tosca: ['tosca-25', 'tosca-50', 'tosca-100', 'tosca-200', 'tosca-300', 'tosca-400', 'tosca-500', 'tosca-600', 'tosca-700', 'tosca-800', 'tosca-900'],
-      'dark blue': ['dark-blue-25', 'dark-blue-50', 'dark-blue-100', 'dark-blue-200', 'dark-blue-300', 'dark-blue-400', 'dark-blue-500', 'dark-blue-600', 'dark-blue-700', 'dark-blue-800', 'dark-blue-900'],
-      gray: ['gray-25', 'gray-50', 'gray-100', 'gray-200', 'gray-300', 'gray-400', 'gray-500', 'gray-600', 'gray-700', 'gray-800', 'gray-900'],
-      red: ['red-25', 'red-50', 'red-100', 'red-200', 'red-300', 'red-400', 'red-500', 'red-600', 'red-700', 'red-800', 'red-900'],
-      orange: ['orange-25', 'orange-50', 'orange-100', 'orange-200', 'orange-300', 'orange-400', 'orange-500', 'orange-600', 'orange-700', 'orange-800', 'orange-900'],
-      blue: ['blue-25', 'blue-50', 'blue-100', 'blue-200', 'blue-300', 'blue-400', 'blue-500', 'blue-600', 'blue-700', 'blue-800', 'blue-900'],
-      green: ['green-25', 'green-50', 'green-100', 'green-200', 'green-300', 'green-400', 'green-500', 'green-600', 'green-700', 'green-800', 'green-900'],
+      primary: ['primary-25', 'primary-50', 'primary-100', 'primary-200', 'primary-300', 'primary-400', 'primary-500', 'primary-600', 'primary-700', 'primary-800', 'primary-900'],
+      'secondary': ['secondary-25', 'secondary-50', 'secondary-100', 'secondary-200', 'secondary-300', 'secondary-400', 'secondary-500', 'secondary-600', 'secondary-700', 'secondary-800', 'secondary-900'],
+      tertiary: ['tertiary-25', 'tertiary-50', 'tertiary-100', 'tertiary-200', 'tertiary-300', 'tertiary-400', 'tertiary-500', 'tertiary-600', 'tertiary-700', 'tertiary-800', 'tertiary-900'],
+      error: ['error-25', 'error-50', 'error-100', 'error-200', 'error-300', 'error-400', 'error-500', 'error-600', 'error-700', 'error-800', 'error-900'],
+      warning: ['warning-25', 'warning-50', 'warning-100', 'warning-200', 'warning-300', 'warning-400', 'warning-500', 'warning-600', 'warning-700', 'warning-800', 'warning-900'],
+      information: ['information-25', 'information-50', 'information-100', 'information-200', 'information-300', 'information-400', 'information-500', 'information-600', 'information-700', 'information-800', 'information-900'],
+      success: ['success-25', 'success-50', 'success-100', 'success-200', 'success-300', 'success-400', 'success-500', 'success-600', 'success-700', 'success-800', 'success-900'],
       system: ['white', 'black'],
       'soft pastel': [
         'soft-pastel-ambrosia-ivory',
@@ -56,7 +56,7 @@ export const Colors: StoryObj = {
       ],
       'hard pastel': [
         'hard-pastel-highlighter-pink',
-        'hard-pastel-gorse-orange',
+        'hard-pastel-gorse-warning',
         'hard-pastel-tropical-tone',
         'hard-pastel-new-car',
         'hard-pastel-mesa-sunrise',
@@ -81,7 +81,7 @@ export const Colors: StoryObj = {
     return (
       <div style={{ padding: '24px', fontFamily: 'var(--font-family-ubuntu, sans-serif)', background: 'var(--background-color-secondary, #f9fafa)', color: 'var(--font-color-primary, #444b55)' }}>
         <h1 style={{ marginBottom: '8px' }}>Design Tokens - Colors</h1>
-        <p style={{ color: 'var(--font-color-secondary, #686e76)', marginBottom: '32px' }}>Figma base colors, pastels, and functional theme colors registered as CSS custom variables.</p>
+        <p style={{ color: 'var(--font-color-secondary, #686e76)', marginBottom: '32px' }}>Figma base colors, pastels, and functional theme colors registeerror as CSS custom variables.</p>
         {Object.entries(colors).map(([groupName, colorList]) => (
           <ColorGroup key={groupName} title={groupName} colors={colorList} />
         ))}

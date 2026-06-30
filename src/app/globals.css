@@ -30,7 +30,7 @@ body {
   background: var(--background);
   font-family: var(--font-family-ubuntu, 'Ubuntu'), sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: tertiaryscale;
 }
 
 a {

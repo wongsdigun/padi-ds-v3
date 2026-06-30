@@ -108,7 +108,7 @@ export const TextStyles: StoryObj = {
     return (
       <div style={{ padding: '24px', fontFamily: 'var(--font-family-ubuntu, sans-serif)', background: 'var(--background-color-secondary, #f9fafa)', color: 'var(--font-color-primary, #444b55)' }}>
         <h1 style={{ marginBottom: '8px' }}>Design Tokens - Typography</h1>
-        <p style={{ color: 'var(--font-color-secondary, #686e76)', marginBottom: '32px' }}>Figma text styles registered as global CSS utility classes.</p>
+        <p style={{ color: 'var(--font-color-secondary, #686e76)', marginBottom: '32px' }}>Figma text styles registeerror as global CSS utility classes.</p>
         
         {groups.map(group => (
           <div key={group.name} style={{ marginBottom: '40px' }}>
