@@ -39,12 +39,12 @@ export const TextStyles: StoryObj = {
       {
         name: 'Headings',
         styles: [
-          { name: 'Heading 1', class: 'heading-heading-1', sample: 'Heading 1 (text-6xl, leading-6xl)' },
-          { name: 'Heading 2', class: 'heading-heading-2', sample: 'Heading 2 (text-5xl, leading-5xl)' },
-          { name: 'Heading 3', class: 'heading-heading-3', sample: 'Heading 3 (text-4xl, leading-4xl)' },
-          { name: 'Heading 4', class: 'heading-heading-4', sample: 'Heading 4 (text-3xl, leading-3xl)' },
-          { name: 'Heading 5', class: 'heading-heading-5', sample: 'Heading 5 (text-2xl, leading-2xl)' },
-          { name: 'Heading 6', class: 'heading-heading-6', sample: 'Heading 6 (text-xl, leading-xl Title Case)' },
+          { name: 'Heading 1', class: 'heading-1', sample: 'Heading 1 (text-6xl, leading-6xl)' },
+          { name: 'Heading 2', class: 'heading-2', sample: 'Heading 2 (text-5xl, leading-5xl)' },
+          { name: 'Heading 3', class: 'heading-3', sample: 'Heading 3 (text-4xl, leading-4xl)' },
+          { name: 'Heading 4', class: 'heading-4', sample: 'Heading 4 (text-3xl, leading-3xl)' },
+          { name: 'Heading 5', class: 'heading-5', sample: 'Heading 5 (text-2xl, leading-2xl)' },
+          { name: 'Heading 6', class: 'heading-6', sample: 'Heading 6 (text-xl, leading-xl Title Case)' },
         ]
       },
       {

@@ -1,5 +1,5 @@
 /* Text Styles */
-.heading-heading-1 {
+.heading-1 {
   font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
   font-size: var(--text-6xl, 34px);
   font-weight: var(--font-weight-bold, 700);
@@ -7,7 +7,7 @@
   line-height: var(--leading-6xl, 48px);
 }
 
-.heading-heading-2 {
+.heading-2 {
   font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
   font-size: var(--text-5xl, 28px);
   font-weight: var(--font-weight-bold, 700);
@@ -15,7 +15,7 @@
   line-height: var(--leading-5xl, 42px);
 }
 
-.heading-heading-3 {
+.heading-3 {
   font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
   font-size: var(--text-4xl, 24px);
   font-weight: var(--font-weight-bold, 700);
@@ -23,7 +23,7 @@
   line-height: var(--leading-4xl, 36px);
 }
 
-.heading-heading-4 {
+.heading-4 {
   font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
   font-size: var(--text-3xl, 22px);
   font-weight: var(--font-weight-bold, 700);
@@ -31,7 +31,7 @@
   line-height: var(--leading-3xl, 32px);
 }
 
-.heading-heading-5 {
+.heading-5 {
   font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
   font-size: var(--text-2xl, 20px);
   font-weight: var(--font-weight-bold, 700);
@@ -39,7 +39,7 @@
   line-height: var(--leading-2xl, 28px);
 }
 
-.heading-heading-6 {
+.heading-6 {
   font-family: var(--font-family-ubuntu, "Ubuntu", sans-serif);
   font-size: var(--text-xl, 18px);
   font-weight: var(--font-weight-bold, 700);
