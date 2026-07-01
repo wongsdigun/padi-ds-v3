@@ -14,9 +14,9 @@
 .text-xs { font-size: var(--text-xs); line-height: var(--leading-xs); }
 
 /* Font Weights */
-.font-regular { font-weight: var(--font-weight-regular, 400); }
-.font-medium { font-weight: var(--font-weight-medium, 500); }
-.font-bold { font-weight: var(--font-weight-bold, 700); }
+.regular { font-weight: var(--font-weight-regular, 400); }
+.medium { font-weight: var(--font-weight-medium, 500); }
+.bold { font-weight: var(--font-weight-bold, 700); }
 
 /* Font Styles & Decorations */
 .italic { font-style: italic; }
